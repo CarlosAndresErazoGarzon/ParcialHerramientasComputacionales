@@ -1,0 +1,24 @@
+Al momento de realizar la respectiva solución se pudieron
+presentar errores como:
+    - Ingresar un carácter alfabético en un campo que se
+    utilizaría como número.
+    - Ingresar un número superior a 1 en los casos que 
+    corresponde.
+    - Tratar de acceder a un valor que excede el tamaño
+    de la lista.
+    - Al momento de imprimir valores no tener en cuenta
+    que para la función print solo se aceptan cadenas.
+    - No inicializar variables donde se van a hacer operaciones
+    acumulativas.
+    - No tener en cuenta las convenciones de 0/1 para los
+    condicionales.
+
+Frente a estos problemas se usaron estrategias como:
+    - Validar los campos con funciones adicionales.
+    - Hacer uso de try/except para encapsular situaciones.
+    - Usar ciclos para pedir un valor hasta que la entrada
+    sea la correcta.
+    - Realizar varias pruebas una vez terminado el programa
+    para verificar el flujo normal y flujo alterno.
+    - Usar banderas para asegurarse que todo funciona 
+    correctamente.
